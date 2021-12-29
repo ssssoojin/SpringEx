@@ -42,8 +42,12 @@ Project name > Spring MVC Project선택 > next > package(org.conan.controller)
 		<property name="dataSource" ref="dataSource"></property>
 		</bean>
 
+* root-context.xml
+	
+	<context:component-scan base-package="org.conan.*"></context:component-scan> 
+	<mybatis-spring:scan base-package="org.conan.controller" /> ---> xml처리하는 파일패키지로
 
-
-
-
+* servlet-context.xml
+	
+	<context:component-scan base-package="org.conan.*" />
 
