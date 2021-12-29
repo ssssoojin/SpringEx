@@ -1,7 +1,8 @@
 스프링 프로젝트 생성
 
-기본설정 : Window > Preferences > General >Workspace > Text file encoding > other:utf-8
-		      	    > Wed > encoding utf-8로 바꾸기
+기본설정 : 
+- Window > Preferences > General >Workspace > Text file encoding > other:utf-8
+- Window > Preferences > Wed > encoding utf-8로 바꾸기
 
 1. File > New > Spring Legacy Project
 
