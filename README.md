@@ -48,7 +48,9 @@ Project name > Spring MVC Project선택 > next > package(org.conan.controller)
 	<context:component-scan base-package="org.conan.*"></context:component-scan> 
 	<mybatis-spring:scan base-package="org.conan.controller" /> ---> xml처리하는 파일패키지로
 
-* servlet-context.xml
+* servlet-context.xml :  웹과 관련된 자원을 관리하는 파일, 스프링 MVC 관련 설정만을 분리하기 위해서 만들어진 파일
 	
 	<context:component-scan base-package="org.conan.*" />
+	
+
 
